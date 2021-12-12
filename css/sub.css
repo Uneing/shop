@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    main{
+      padding-top: 60px;
+    }
+    
+#top20{
+           background-color: chartreuse;
+           width: 60px;
+           height: 25px;
+           position: relative; /*위치지정 부모*/
+           text-align: center;
+           margin-left: 30px;
+}
+#dd{ /*top20 */
+            float: right;
+            position: absolute; /*위치지정 새끼*/
+            right: 40px;    /*부모 기준으로 조절 */
+            top: 50px;
+            margin-top: 10px;
+            color: gray;
+}
+#main_box{
+            margin-top: 30px;
+            margin-bottom: 100px;
+}
+.list li{
+            list-style-type: none;
+            display: inline-block; /*디브안에 li애들을 가로로 정렬 */
+            font-size: 50px;
+            padding-bottom: 10px;
+}
+.box{
+           border-bottom: 1px solid black; /*디브박스 아래에 줄 라인*/
+           margin : 0 30px 0 30px;
+}
+.link{
+    text-decoration: none;
+    color : black;
+}
+a:hover{
+           color: chartreuse;          
+}
+.place1{
+           margin-right: 705px;  /*티로고 후디와 스웨트셔츠 글자 사이 간격조절*/
+}
+.place2{
+        margin-right: 600px;  /*티로고 후디와 스웨트셔츠 글자 사이 간격조절*/
+}
+.place3{
+    margin-right: 475px;
+}
+.place4{
+    margin-right: 483px;
+}
+.place5{
+    margin-right: 707px;
+}
+.place6{
+    margin-right: 650px;
+}
+.place7{
+    margin-right: 630px;
+}      
+.place8{
+    margin-right: 525px;
+}
+.place9{
+    margin-right: 120px;
+}
+.place10{
+    margin-right: 600px;
+}
+.place11{
+    margin-right: 490px;
+}
+.place12{
+    margin-right: 595px;
+}
+.place13{
+    margin-right: 395px;
+}
+.place14{
+    margin-right: 335px;
+}
+.place15{
+    margin-right: 260px;
+}
+.place16{
+    margin-right: 481px;
+}
+.place17{
+    margin-right: 600px;
+}
+.place18{
+    margin-right: 640px;
+}
+.place19{
+    margin-right: 508px;
+}
+.place20{
+    margin-right: 440px;
+}
+
+
